@@ -1,0 +1,27 @@
+body {
+    background-image: url(./images/background_site.jpg);
+    background-size: cover;
+    background-position-y: -100px;
+}
+
+.home_img img{
+    max-height: 480px;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.about .container {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px 50px;
+    margin-bottom: 150px;
+    font-size: 24px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 50px;
+}
+
+.about img {
+    max-height: 300px;
+    height: 100%;
+    margin-right: 32px;
+}

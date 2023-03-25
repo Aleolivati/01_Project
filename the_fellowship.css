@@ -1,0 +1,24 @@
+body {
+    background-image: url(./images/background_site_02.jpg);
+    background-size: cover;
+}
+
+.fellowship .container {
+    padding: 10px 50px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    font-size: 24px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50px;
+    color:black
+}
+
+.fellowship h2, h3, p {
+    text-align: center;
+    padding: 10px;
+}
+.fellowship img {
+    max-height: 300px;
+    height: 100%;
+    margin: 30px ;
+}

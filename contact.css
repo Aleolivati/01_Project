@@ -1,0 +1,57 @@
+body {
+    background-image: url(./images/background_site_04.jpg);
+    background-size: cover;
+}
+
+.contact .container {
+    padding: 10px 20px;
+    margin-bottom: 45px;
+    margin-top: 50px;
+    font-size: 24px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50px;
+    width: max-content;
+}
+
+.contact h2, h3{
+    text-align: center;
+    padding: 10px;
+}
+.contact img {
+    max-height: 300px;
+    height: 100%;
+    margin: 30px ;
+    border-radius: 10px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+textarea,
+input,
+button {
+    display: block;
+    font-size: 20px;
+    width: 300px;
+    height: 32px;
+    margin-bottom: 5px;
+    padding: 5px;
+    outline-color: #3f511f;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+button {
+    background-color: #3f511f;
+    color: #ffc801;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #65852d;
+    cursor: pointer;
+}
